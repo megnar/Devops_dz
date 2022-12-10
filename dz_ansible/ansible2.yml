@@ -32,7 +32,3 @@
       ansible.builtin.file:
         path: ./test_app
         state: absent
-      # - name: Clean app directory
-      #file:
-      #  path: ./test_app
-      #  state: absent
